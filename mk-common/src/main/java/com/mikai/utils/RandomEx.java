@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by mk on 16/8/18.
  */
-public class RandomClass {
+public class RandomEx {
 
     public static void main(String[] args) {
         int temp[] = new int[7];
