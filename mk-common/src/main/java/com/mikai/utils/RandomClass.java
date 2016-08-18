@@ -16,7 +16,7 @@ public class RandomClass {
 
     public static void print(int temp[]) {
         for (int x = 0; x < temp.length; x++) {
-            System.out.println(temp[x]);
+            System.out.print(temp[x]+",");
         }
     }
 
