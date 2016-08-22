@@ -16,7 +16,7 @@ public class RandomEx {
 
     public static void print(int temp[]) {
         for (int x = 0; x < temp.length; x++) {
-            System.out.print(temp[x]+",");
+            System.out.print(temp[x] + ",");
         }
     }
 
