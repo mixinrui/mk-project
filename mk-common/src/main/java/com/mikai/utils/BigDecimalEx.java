@@ -12,7 +12,7 @@ public class BigDecimalEx {
 
 
     public static double round(double num, int scale) {
-        return new BigDecimal(num).divide(new BigDecimal(1), scale, BigDecimal.ROUND_HALF_UP).doubleValue();
+        return new BigDecimal(num).divide(new BigDecimal(1), scale, BigDecimal.ROUND_HALF_UP).doubleValue();    //四舍五入,保留几位小数的做法,必须用除法
     }
 
 
