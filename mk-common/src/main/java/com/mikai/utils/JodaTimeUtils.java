@@ -11,7 +11,7 @@ import java.util.Date;
 /**
  * Created by mk on 17/2/8.
  */
-public class DateAndDateTimeUtils {
+public class JodaTimeUtils {
 
     public static void main(String[] args) {
         Date tempDate = new Date();
